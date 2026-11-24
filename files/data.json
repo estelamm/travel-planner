@@ -1,0 +1,186 @@
+{
+  "days": [
+    {
+      "t": "Dia 1",
+      "s": "Pão de Açúcar e praias",
+      "items": [
+        {
+          "id": "a1",
+          "icon": "🚡",
+          "name": "Bondinho Pão de Açúcar",
+          "cat": "turistico",
+          "nomap": false,
+          "done": false
+        },
+        {
+          "id": "a2",
+          "icon": "☕",
+          "name": "Café no Embaixada Carioca",
+          "cat": "cafe",
+          "nomap": false,
+          "done": false
+        },
+        {
+          "id": "a3",
+          "icon": "🏖️",
+          "name": "Praia Vermelha",
+          "cat": "turistico",
+          "nomap": false,
+          "done": false
+        },
+        {
+          "id": "a4",
+          "icon": "🍴",
+          "name": "Almoço",
+          "cat": "almoco",
+          "nomap": true,
+          "done": false
+        },
+        {
+          "id": "a5",
+          "icon": "🌴",
+          "name": "Jardim Botânico",
+          "cat": "turistico",
+          "nomap": false,
+          "done": false
+        },
+        {
+          "id": "a6",
+          "icon": "🏄",
+          "name": "Praia de Copacabana, Posto 5",
+          "cat": "turistico",
+          "nomap": false,
+          "done": false
+        },
+        {
+          "id": "a7",
+          "icon": "🍽️",
+          "name": "Casa de Bamba, Posto 4",
+          "cat": "janta",
+          "nomap": false,
+          "done": false,
+          "note": "Restaurante"
+        },
+        {
+          "id": "a8",
+          "icon": "🎶",
+          "name": "Bip Bip",
+          "cat": "samba",
+          "nomap": false,
+          "done": false,
+          "note": "Música ao vivo: quinta e domingo"
+        }
+      ]
+    },
+    {
+      "t": "Dia 2",
+      "s": "Centro histórico",
+      "items": [
+        {
+          "id": "b1",
+          "icon": "🎨",
+          "name": "Escadaria Selarón",
+          "cat": "turistico",
+          "nomap": false,
+          "done": false
+        },
+        {
+          "id": "b2",
+          "icon": "📖",
+          "name": "Real Gabinete Português de Leitura",
+          "cat": "turistico",
+          "nomap": false,
+          "done": false
+        },
+        {
+          "id": "b3",
+          "icon": "🧁",
+          "name": "Confeitaria Colombo",
+          "cat": "cafe",
+          "nomap": false,
+          "done": false
+        },
+        {
+          "id": "b4",
+          "icon": "🎭",
+          "name": "Teatro Municipal",
+          "cat": "turistico",
+          "nomap": false,
+          "done": false
+        },
+        {
+          "id": "b5",
+          "icon": "🏛️",
+          "name": "Museu da República",
+          "cat": "turistico",
+          "nomap": false,
+          "done": false
+        },
+        {
+          "id": "b6",
+          "icon": "🏰",
+          "name": "Forte de Copacabana",
+          "cat": "turistico",
+          "nomap": false,
+          "done": false
+        }
+      ]
+    },
+    {
+      "t": "Dia 3",
+      "s": "Feira, mar e pôr do sol",
+      "items": [
+        {
+          "id": "c1",
+          "icon": "🍓",
+          "name": "Feira da Glória",
+          "cat": "turistico",
+          "nomap": false,
+          "done": false
+        },
+        {
+          "id": "c2",
+          "icon": "🌊",
+          "name": "Dia de praia",
+          "cat": "turistico",
+          "nomap": true,
+          "done": false
+        },
+        {
+          "id": "c3",
+          "icon": "🌅",
+          "name": "Pôr do sol ao entardecer",
+          "cat": "turistico",
+          "nomap": true,
+          "done": false
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "p1",
+      "name": "Casa de Bamba, Posto 4",
+      "cat": "janta",
+      "note": "Restaurante em Copacabana"
+    },
+    {
+      "id": "p2",
+      "name": "Bip Bip",
+      "cat": "samba",
+      "note": "Música ao vivo: quinta e domingo"
+    },
+    {
+      "id": "1793664502977f6v4",
+      "name": "Galeto Sats",
+      "cat": "almoco",
+      "note": "copacabana - bota fogo -"
+    },
+    {
+      "id": "1793664557420t298",
+      "name": "Terra Brasilis",
+      "cat": "almoco",
+      "note": "praia vermelha - urca"
+    }
+  ]
+}

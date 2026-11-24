@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Viver Rio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Figtree:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Viver Rio</h1>
+    <p>Três dias de roteiro e a sua lista pessoal de lugares para não esquecer.</p>
+    <nav aria-label="Seções"><a href="#roteiro">Roteiro</a><a href="#favoritos">Meus lugares</a></nav>
+    <div class="status" id="status" role="status">Carregando…</div>
+    <svg class="wave" viewBox="0 0 1200 64" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 40C100 10 200 10 300 40s200 30 300 0 200-30 300 0 200 30 300 0v24H0z" />
+    </svg>
+  </header>
+
+  <section id="roteiro" class="band g">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Roteiro de 3 dias</h2><span id="progress"></span>
+      </div>
+      <p class="hint">Arraste os cards para reordenar ou mudar de dia. Use as setas se preferir. O último item de cada
+        dia adiciona um novo local.</p>
+      <div class="days" id="days"></div>
+    </div>
+  </section>
+
+  <section id="favoritos" class="band p">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Meus lugares</h2><span>Salve, categorize e ordene por prioridade</span>
+      </div>
+      <form id="form">
+        <input type="text" id="name" placeholder="Nome do lugar" aria-label="Nome do lugar" required maxlength="80">
+        <select id="cat" aria-label="Categoria"></select>
+        <button class="btn" type="submit">Salvar</button>
+        <input class="full" type="text" id="note" placeholder="Observação (opcional): bairro, horário, quem indicou"
+          aria-label="Observação" maxlength="120">
+      </form>
+      <div class="tabs" id="tabs" role="group" aria-label="Filtrar por categoria"></div>
+      <p class="hint">Arraste para reordenar ou use as setas. O nº 1 é o seu favorito da categoria.</p>
+      <ol class="rank" id="rank"></ol>
+      <div class="backup">
+        <button class="btn ghost" type="button" id="export">Baixar data.json</button>
+        <label class="btn ghost">Importar JSON<input type="file" id="import" accept="application/json" hidden></label>
+      </div>
+    </div>
+  </section>
+  <footer>Feito para curtir o Rio sem pressa.</footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
